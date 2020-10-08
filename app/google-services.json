@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957542539854",
+    "firebase_url": "https://pandittemples-2efaa.firebaseio.com",
+    "project_id": "pandittemples-2efaa",
+    "storage_bucket": "pandittemples-2efaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957542539854:android:f9debcb37d0ab97696591f",
+        "android_client_info": {
+          "package_name": "com.indtrack.pandit_temples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957542539854-ieu6o3ql6ru823lpfffqao2vqs6n8cpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgNzVBa8DKW__PWRFYxOPB10DQEIH0rHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957542539854-ieu6o3ql6ru823lpfffqao2vqs6n8cpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

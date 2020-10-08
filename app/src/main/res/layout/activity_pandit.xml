@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Pandit Name "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="* "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/panditName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/gray_border"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789 _"
+            android:hint="Enter Name"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingBottom="7dp"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/padding_5"
+            android:textColor="@color/colorGrey"
+            android:textSize="@dimen/text_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Mobile No. "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="* "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/panditContact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/gray_border"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 _"
+            android:hint="Enter Contact No. "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingBottom="7dp"
+            android:layout_marginTop="@dimen/padding_5"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:textColor="@color/colorGrey"
+            android:textSize="@dimen/text_16" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Pandit Description "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="* "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/panditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10"
+            android:background="@drawable/gray_border"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789 _"
+            android:hint="Enter Description "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingBottom="7dp"
+            android:layout_marginTop="@dimen/padding_5"
+            android:singleLine="true"
+            android:textColor="@color/colorGrey"
+            android:textSize="@dimen/text_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Pandit Work"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="* "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/panditWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_10"
+            android:background="@drawable/gray_border"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789 _"
+            android:hint="Pandit Work "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingBottom="7dp"
+            android:layout_marginTop="@dimen/padding_5"
+            android:singleLine="true"
+            android:textColor="@color/colorGrey"
+            android:textSize="@dimen/text_16" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:background="#000000"
+            android:elevation="4dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+
+
+            <TextView
+                android:id="@+id/submitPanditBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/buttonTheme2"
+                android:text="@string/submit"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
